@@ -1,0 +1,21 @@
+//POLYCPP 1.0 by Afghan Goat//
+A fallback library which suits C with some juicy C++ features like namespaces, classes, try catch, errors, iterators, exceptions and templates!
+
+!!!
+Important naming convention: the next linked list nodes should be named "next"!
+!!!
+
+Missing features:
+-Derived class
+-Virtual inheritance
+-Nested classes and namespaces
+-template<>
+
+You need to run the POLYCPP_transpiler.py if you want:
+-templates
+-::-s
+-namespaces
+-classes
+
+Usage: add all your source files and their extensions separated by a ' ' (space) and press enter, it will generate *_PCPP.c files for you. 
+Your source files must contain an "int main()" segment!!!
